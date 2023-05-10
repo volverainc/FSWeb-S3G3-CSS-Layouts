@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Döküman</title>
+    <link href="/style/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <title>Emre Sert Portfolio</title>
 </head>
+
 <body>
-    <h1> Hakkında </h1>
+    <header>
+        <h1>emre sert</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a class="aktif" href="about.html">Hakkimda</a>
+            <a href="contact.html">Iletisim</a>
+            <a href="projects.html">Projelerim</a>
+        </nav>
+    </header>
+    <div class="content-header">
+        <h1> Hakkımda </h1>
+        <img width="300" height="auto" src="/assets/undraw_Male_avatar_g98d.png">
+    </div>
+
+    <section class="about container">
+
+        <div class="pad">
+            <p>Merhaba, benim adım [İsim Soyisim] ve ben [meslek/kariyer yolunuz] alanında bir uzmanım.
+                [mezuniyet/öğrenim durumu] mezunuyum ve [çalıştığınız/çalıştığınız yerler] gibi [öne çıkan/önemli]
+                şirketlerde [işiniz] olarak çalıştım. Şu anda [işiniz/alanınız] konusunda [bağımsız çalışan/bir şirkette
+                çalışan] bir [meslek unvanınız] olarak faaliyet gösteriyorum.
+            </p>
+            <p>[meslek/kariyer yolunuz] alanına ilgi duymam, okul yıllarından beri başladı. Kendimi geliştirmek için
+                [işletme/dijital pazarlama/programlama] gibi çeşitli alanlarda kurslar aldım. Bu sayede
+                [işiniz/alanınız] konusunda derinlemesine bilgi sahibi oldum ve [sizin için en önemli/önemli olan]
+                özellikleri geliştirdim. Bunlar arasında [kendinizi nasıl geliştirdiğinizi belirleyin - örneğin,
+                analitik düşünme, liderlik becerileri, yaratıcılık, takım çalışması] gibi yetenekler yer alır.
+            </p>
+            <p>
+                [meslek/kariyer yolunuz] alanında çalışmaktan keyif alıyorum, çünkü her gün yeni şeyler öğreniyorum ve
+                beni motive eden birçok zorlukla karşılaşıyorum. İşimde başarılı olmak için çok çalışıyorum ve işimi
+                seviyorum. Her zaman daha fazla öğrenmeye ve kendimi geliştirmeye açık olduğumu düşünüyorum. Bu yüzden
+                [gönüllü çalıştığınız/öğrenim aldığınız kurslar, seminerler vb.] gibi fırsatları değerlendiriyorum.
+            </p>
+            <p>
+                Hakkımda daha fazla bilgi edinmek için lütfen [sitenizdeki/LinkedIn profilinizdeki/vb.] diğer bölümlere
+                göz atın veya benimle [e-posta/adres/vb.] ile iletişime geçin. Sizlerle çalışmayı ve [işiniz/alanınız]
+                alanında size yardımcı olmayı dört gözle bekliyorum.
+            </p>
+            <button onClick="location.href='contact.html'">Bana Ulasin</button>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="ulas">
+            <p>Gorduklerinizden memnun musunuz?</p>
+            <button onClick="location.href='projects.html'">Projelerim</button>
+            <div class="share">
+                <a href="#" target="_blank"><img src="/assets/facebook.png"></a>
+                <a href="#" target="_blank"><img src="/assets/twitter.png"></a>
+                <a href="#" target="_blank"><img src="/assets/pinterest.png"></a>
+            </div>
+        </div>
+        <p class="copyright">© Copyright 2023 - Emre Sert</p>
+    </footer>
+    <style>
+        body {
+            background: white
+        }
+    </style>
 </body>
+
 </html>

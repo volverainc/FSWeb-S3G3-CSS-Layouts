@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=    <h1> ABOUT </h1>, initial-scale=1.0">
-    <title>Döküman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <title>Emre Sert Portfolio</title>
+
+    <style>
+        body {
+            background: white
+        }
+        .about {padding-bottom: 20px}
+    </style>
 </head>
+
 <body>
-    <h1> İletişim </h1>
-</body>
+    <header>
+        <h1>emre sert</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="about.html">Hakkimda</a>
+            <a class="aktif" href="contact.html">Iletisim</a>
+            <a href="projects.html">Projelerim</a>
+        </nav>
+    </header>
+
+        <div class="content-header">
+            <h1> İletişim </h1>
+            <img width="300" height="auto" src="/assets/undraw_Online_discussion_re_nn7e.png">
+        </div>
+
+        <section class="contact container">
+        <div class="left-contact">
+            <p>İletişim kurmak isterseniz, lütfen iletişim formunu doldurun veya [e-posta/adres/vb.] aracılığıyla benimle doğrudan iletişime geçin. En kısa sürede size yanıt vereceğim.
+            </p>
+    <p>
+        Ayrıca, benimle sosyal medya hesaplarımdan da iletişim kurabilirsiniz. Beni [LinkedIn/Twitter/Instagram] gibi platformlarda takip edebilir ve son haberlerimden haberdar olabilirsiniz.
+    </p>            
+    <p>
+        Eğer [işveren/müşteri/ortak] iseniz ve benimle işbirliği yapmak isterseniz, lütfen benimle iletişime geçmekten çekinmeyin. Projenizi veya işinizin gereksinimlerini tartışmak için her zaman açığım ve size en iyi şekilde yardımcı olmaya hazırım.
+    </p>
+    <p>
+        Son olarak, her türlü geri bildiriminiz benim için önemlidir. Eğer benimle paylaşmak istediğiniz bir yorumunuz, öneriniz veya sorunuz varsa, lütfen benimle iletişime geçmekten çekinmeyin. Sizi dinlemekten mutluluk duyacağım.
+    </p>
+        </div>
+        <div class="right-contact">
+            <form action="/action_page.php">
+                <input type="text" id="isim" placeholder="Isim" name="firstname">
+
+                <input type="text" id="soyisim" placeholder="Soyisim" name="lastname">
+
+                <input type="text" id="tel" placeholder="Telefon Numaraniz" name="lastname">
+
+                <textarea id="mesaj" name="mesaj" placeholder="Size nasil yardimci olabilirim?"
+                    style="height:200px"></textarea>
+
+                <input type="submit" value="Yolla">
+            </form>
+        </div>
+        </section>
+
+        <footer>
+            <div class="ulas">
+                <p>Gorduklerinizden memnun musunuz?</p>
+                <button onClick="location.href='projects.html">Projelerim</button>
+                <div class="share">
+                    <a href="#" target="_blank"><img src="/assets/facebook.png"></a>
+                    <a href="#" target="_blank"><img src="/assets/twitter.png"></a>
+                    <a href="#" target="_blank"><img src="/assets/pinterest.png"></a>
+                </div>
+            </div>
+            <p class="copyright">© Copyright 2023 - Emre Sert</p>
+        </footer>
+    </body>
+
 </html>
