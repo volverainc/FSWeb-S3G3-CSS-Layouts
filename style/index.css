@@ -68,6 +68,9 @@ header nav a:hover {
         text-align: center;
     }
 
+    .proje-desc {
+        padding: 30px
+    }
 }
 
 /*Mobile Query*/
@@ -304,7 +307,6 @@ input[type=submit]:hover {
     line-height: 1.6em;
 }
 
-/*Mobile Query*/
 @media only screen and (max-width:480px) {
     .proje {
         padding: 30px;
